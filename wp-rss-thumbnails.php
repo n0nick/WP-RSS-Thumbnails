@@ -70,7 +70,7 @@ function wp_rss_include()
 
 function wp_rss_img_menu()
 {
-    add_options_page( 'WP RSS Images', 'WP RSS Images', 10, 'wp-rss-image', 'wp_rss_image_setting' );	 
+    add_options_page( 'WP RSS Thumbnails', 'WP RSS Thumbnails', 10, 'wp-rss-image', 'wp_rss_image_setting' );	 
 }
 
 function wp_rss_image_setting()
@@ -98,7 +98,7 @@ function wp_rss_image_setting()
 
 <form method="post" name="options" target="_self">
 
-<h2>WP RSS Images Setting</h2>
+<h2>WP RSS Thumbnails Setting</h2>
 <h3>Select the size of the images</h3>
 <p>You can change the dimension of this sizes under Miscellaneous Settings.</p>
 <table width="100%" cellpadding="10" class="form-table">
